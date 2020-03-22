@@ -1,0 +1,12 @@
+.menu .active{
+    color: rgb(23, 163, 212);
+    background-color: transparent;
+    
+}
+.menu{
+    border: 1px solid rgba(0,0,0,.125);
+}
+.menu li{
+    border-color: transparent;
+    cursor: pointer;
+}
