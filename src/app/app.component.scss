@@ -1,3 +1,34 @@
 label{
     cursor: pointer;
 }
+.container-fluid > div.row >div.col-md-12:nth-child(1) {
+    padding: 0 0 0 0;
+}
+.header[_ngcontent-xyl-c1]
+{
+border:0px;
+//border-bottom:1px solid #17a3d4;
+}
+.container-fluid > div.row:nth-child(1) {
+    background-color: black;
+}
+div.container-fluid .col-md-2 {
+    border: 1px solid #d0d0d0;
+    background-color: #00008b;
+    color: white;
+}
+
+form.ng-untouched.ng-pristine.ng-valid {
+    background-color: indigo;
+}
+.header[_ngcontent-xyl-c1] {
+    padding: 15px;
+    border: 0px;
+    font-size: 1.8em;
+    color: #17ace8;
+    font-family: cursive;
+}
+.navbarTap{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
