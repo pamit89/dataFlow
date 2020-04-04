@@ -1,92 +1,121 @@
 <form (ngSubmit)="onSubmit()" [formGroup]="outflowForm">
     <div class="outflow">
         <div class="form-group row">
-            <label for="class" class="col-md-3 col-form-label">class</label>
+            <label for="class" class="col-md-3 col-form-label">Class</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="class" formControlName="class">
             </div>
         </div>
         <div class="form-group row">
-            <label for="asinreviewpriority" class="col-md-3 col-form-label">asin_riview_priority</label>
+            <label for="asinreviewpriority" class="col-md-3 col-form-label">Priority</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="asinreviewpriority" formControlName="asinreviewpriority">
             </div>
         </div>
         <div class="form-group row">
-            <label for="productcategory" class="col-md-3 col-form-label">product_category</label>
+            <label for="productcategory" class="col-md-3 col-form-label">Category</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="productcategory" formControlName="productcategory">
             </div>
         </div>
         <div class="form-group row">
-            <label for="audittypedecision" class="col-md-3 col-form-label">audit_type_decision</label>
+            <label for="enforcement_risk_score" class="col-md-3 col-form-label">Enforcement Risk Score</label>
             <div class="col-md-9">
-                <input type="text" class="form-control" id="audittypedecision" formControlName="audittypedecision">
+                <input type="text" class="form-control" id="enforcement_risk_score" formControlName="enforcement_risk_score">
             </div>
         </div>
         <div class="form-group row">
-            <label for="reviewday" class="col-md-3 col-form-label">review_day</label>
+            <label for="csb_risk_score" class="col-md-3 col-form-label">Csb Risk Score</label>
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="csb_risk_score" formControlName="csb_risk_score">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="audittype" class="col-md-3 col-form-label">Audit Type</label>
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="audittype" formControlName="audittype">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="decision" class="col-md-3 col-form-label">Decision</label>
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="decision" formControlName="decision">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="asin_auditor" class="col-md-3 col-form-label">Reviewer</label>
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="asin_auditor" formControlName="asin_auditor">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="manager_id" class="col-md-3 col-form-label">Manager</label>
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="manager_id" formControlName="manager_id">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="reviewday" class="col-md-3 col-form-label">Day</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="reviewday" formControlName="reviewday">
             </div>
         </div>
         <div class="form-group row">
-            <label for="reviewweek" class="col-md-3 col-form-label">review_week</label>
+            <label for="reviewweek" class="col-md-3 col-form-label">Week</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="reviewweek" formControlName="reviewweek">
             </div>
         </div>
         <div class="form-group row">
-            <label for="reviewmonth" class="col-md-3 col-form-label">review_month</label>
+            <label for="reviewmonth" class="col-md-3 col-form-label">Month</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="reviewmonth" formControlName="reviewmonth">
             </div>
         </div>
         <div class="form-group row">
-            <label for="reviewermanagerlogin" class="col-md-3 col-form-label">reviewer manager login</label>
+            <label for="bulktype" class="col-md-3 col-form-label">Bulk Type</label>
             <div class="col-md-9">
-                <input type="text" class="form-control" id="reviewermanagerlogin"
-                    formControlName="reviewermanagerlogin">
+                <input type="text" class="form-control" id="bulktype" formControlName="bulktype">
             </div>
         </div>
         <div class="form-group row">
-            <label for="outflowtype" class="col-md-3 col-form-label">outflow_type</label>
+            <label for="outflowtype" class="col-md-3 col-form-label">Outflow Type</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="outflowtype" formControlName="outflowtype">
             </div>
         </div>
         <div class="form-group row">
-            <label for="nei_flag" class="col-md-3 col-form-label">neiflag</label>
-            <div class="col-md-9">
-                <input type="text" class="form-control" id="neiflag" formControlName="neiflag">
-            </div>
-        </div>
-        <div class="form-group row">
-            <label for="marketplace" class="col-md-3 col-form-label">marketplace</label>
+            <label for="marketplace" class="col-md-3 col-form-label">MP</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="marketplace" formControlName="marketplace">
             </div>
         </div>
         <div class="form-group row">
-            <label for="node" class="col-md-3 col-form-label">node</label>
+            <label for="nei_flag" class="col-md-3 col-form-label">Nei Flag</label>
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="neiflag" formControlName="neiflag">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="node" class="col-md-3 col-form-label">Node</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="node" formControlName="node">
             </div>
         </div>
         <div class="form-group row">
-            <label for="org" class="col-md-3 col-form-label">org</label>
+            <label for="org" class="col-md-3 col-form-label">Org</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="org" formControlName="org">
             </div>
         </div>
         <div class="form-group row">
-            <label for="sla" class="col-md-3 col-form-label">sla</label>
+            <label for="sla" class="col-md-3 col-form-label">SLA</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="sla" formControlName="sla">
             </div>
         </div>
         <div class="form-group row">
-            <label for="outflow" class="col-md-3 col-form-label">outflow</label>
+            <label for="outflow" class="col-md-3 col-form-label">Outflow</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="outflow" formControlName="outflow">
             </div>

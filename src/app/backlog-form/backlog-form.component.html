@@ -1,37 +1,43 @@
 <form (ngSubmit)="onSubmit()" [formGroup]="backlogForm">
     <div class="backlog">
         <div class="form-group row">
-            <label for="classname" class="col-md-3 col-form-label">class_name</label>
+            <label for="classname" class="col-md-3 col-form-label">Class</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="classname" formControlName="classname">
             </div>
         </div>
         <div class="form-group row">
-            <label for="marketplace" class="col-md-3 col-form-label">marketplace</label>
+            <label for="marketplace" class="col-md-3 col-form-label">MP</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="marketplace" formControlName="marketplace">
             </div>
         </div>
         <div class="form-group row">
-            <label for="reviewstatus" class="col-md-3 col-form-label">review_status</label>
+            <label for="reviewstatus" class="col-md-3 col-form-label">Review Status</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="reviewstatus" formControlName="reviewstatus">
             </div>
         </div>
         <div class="form-group row">
-            <label for="asincatchdate" class="col-md-3 col-form-label">asin_catch_date</label>
+            <label for="asincatchdate" class="col-md-3 col-form-label">Asin Catch Date</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="asincatchdate" formControlName="asincatchdate">
             </div>
         </div>
         <div class="form-group row">
-            <label for="prioritycreatedate" class="col-md-3 col-form-label">priority_create_date</label>
+            <label for="priority" class="col-md-3 col-form-label">Priority</label>
             <div class="col-md-9">
-                <input type="text" class="form-control" id="prioritycreatedate" formControlName="prioritycreatedate">
+                <input type="text" class="form-control" id="priority" formControlName="priority">
             </div>
         </div>
         <div class="form-group row">
-            <label for="workingstatus" class="col-md-3 col-form-label">working_status</label>
+            <label for="create_date" class="col-md-3 col-form-label">Create Date</label>
+            <div class="col-md-9">
+                <input type="text" class="form-control" id="create_date" formControlName="create_date">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="workingstatus" class="col-md-3 col-form-label">Working Status</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="workingstatus" formControlName="workingstatus">
             </div>
@@ -43,26 +49,26 @@
             </div>
         </div>
         <div class="form-group row">
-            <label for="productcategory" class="col-md-3 col-form-label">product_category</label>
+            <label for="productcategory" class="col-md-3 col-form-label">Category</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="productcategory" formControlName="productcategory">
             </div>
         </div>
         <div class="form-group row">
-            <label for="enforcementriskscore" class="col-md-3 col-form-label">enforcement_risk_score</label>
+            <label for="enforcementriskscore" class="col-md-3 col-form-label">Enforcement Risk Score</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="enforcementriskscore"
                     formControlName="enforcementriskscore">
             </div>
         </div>
         <div class="form-group row">
-            <label for="csbriskscore" class="col-md-3 col-form-label">e csb_risk_score</label>
+            <label for="csbriskscore" class="col-md-3 col-form-label">Csb Risk Score</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="csbriskscore" formControlName="csbriskscore">
             </div>
         </div>
         <div class="form-group row">
-            <label for="policyversionid" class="col-md-3 col-form-label">policy_version_id</label>
+            <label for="policyversionid" class="col-md-3 col-form-label">Policy Version Id</label>
             <div class="col-md-9">
                 <input type="text" class="form-control" id="policyversionid" formControlName="policyversionid">
             </div>

@@ -13,18 +13,18 @@ export class InflowFormComponent implements OnInit {
   ngOnInit() {
     this.inflowForm = new FormGroup({
       "asincatchdate": new FormControl(),
-      "inflowywinflowym": new FormControl(),
-      "potentialclass": new FormControl(),
-      "createdate": new FormControl(),
+      "inflowyw": new FormControl(),
+      "inflowym": new FormControl(),      
+      "class": new FormControl(),
       "workingstatus": new FormControl(),
       "asicreviewpriority": new FormControl(),
-      "productcategory": new FormControl(),
-      "actionclientname": new FormControl(),
+      "productcategory": new FormControl(),     
       "policytype": new FormControl(),
       "enforcementriskscore": new FormControl(),
       "csbriskscore": new FormControl(),
       "policyentityid": new FormControl(),
-      "marketplacenode": new FormControl(),
+      "marketplace": new FormControl(),
+      "node": new FormControl(),
       "inflow": new FormControl()
     })
   }
